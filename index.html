@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CODIGO5</title>
+
+    <!-- Fontes e Ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Orbitron:wght@700&display=swap"
+        rel="stylesheet" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <!-- MENU -->
+    <header>
+        <div class="logo">CODIGO5</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- HOME: CARROSSEL -->
+    <main class="container" id="home">
+        <div class="tech-circle">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+
+        <div class="list">
+            <div class="item active">
+                <div class="product-img">
+                    <img src="./img/img 3d/mario_sem_fundo-removebg.png" alt="Centro De Mesa" />
+                </div>
+                <div class="content">
+                    <p class="product-tag">Leve a Aventura para sua Festa!</p>
+                    <p class="product-name">Centro de Mesa Super Mario Bros.</p>
+                    <p class="description">Transforme sua festa em uma aventura no Reino do Cogumelo com este vibrante
+                        Centro de Mesa do Super Mario Bros!</p>
+                    <button class="btn" data-link="https://www.instagram.com/codigo5_/">Saiba Mais</button>
+
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="product-img">
+                    <img src="./img/img 3d/porta guardanapo.png" alt="Porta Guardanapo" />
+                </div>
+                <div class="content">
+                    <p class="product-tag">Organizador Premium</p>
+                    <p class="product-name">Organizador de Mesa Patolino</p>
+                    <p class="description">Organize sua mesa com o estilo e carisma do Patolino dos Looney Tunes.</p>
+                    <button class="btn" data-link="https://www.instagram.com/codigo5_/">Saiba Mais</button>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="product-img">
+                    <img src="./img/img 3d/Made with insMind-Gemini_Generated_Image_mlptdjmlptdjmlpt.png"
+                        alt="Calendário STITCH & ANGEL" />
+                </div>
+                <div class="content">
+                    <p class="product-tag">Novo Lançamento</p>
+                    <p class="product-name">Calendário STITCH e ANGEL</p>
+                    <p class="description">Adicione um toque de magia Disney ao seu dia a dia com nossos calendários de
+                        mesa do Stitch e da Angel!</p>
+                    <button class="btn" data-link="https://www.instagram.com/codigo5_/">Saiba Mais</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="arrows">
+            <button class="arrows-btn" id="prev">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="arrows-btn" id="next">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+        </div>
+
+        <div class="indicators">
+            <div class="numbers">01</div>
+            <div class="dots">
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot active"></div>
+            </div>
+        </div>
+    </main>
+
+    <!-- PRODUTOS SIMPLES -->
+    <section id="produtos" class="produtos-simples container">
+        <h2 style="color: white;">Mais Produtos</h2>
+        <div class="produtos-grid">
+            <!-- Adicione mais produtos aqui -->
+            <div class="produto-card">
+                <img src="./img/img 3d/mario_sem_fundo-removebg.png" alt="Produto 1">
+                <p>Centro De Mesa Personalizados</p>
+            </div>
+            <div class="produto-card">
+                <img src="./img/img 3d/porta guardanapo.png" alt="Produto 2">
+                <p>Porta Guardanapo Personalizados</p>
+            </div>
+            <div class="produto-card">
+                <img src="./img/img 3d/Made with insMind-Gemini_Generated_Image_mlptdjmlptdjmlpt.png" alt="Produto 2">
+                <p>Porta Guardanapo Personalizados</p>
+            </div>
+            <div class="produto-card">
+                <img src="./img/img 3d/CHAVEIRO sem fundo.png" alt="Produto 2">
+                <p>Chaveiros Personalizados</p>
+            </div>
+            <div class="produto-card">
+                <img src="./img/img 3d/maria centro 1.png" alt="Produto 2">
+                <p>centro de mesa Personalizados</p>
+            </div>
+            <div class="produto-card">
+                <img src="./img/img 3d/nome juan.png" alt="Produto 2">
+                <p>Nome Personalizados</p>
+            </div>
+            <div class="produto-card">
+                <img src="./img/img 3d/porta luara.png" alt="Produto 2">
+                <p>Porta Guardanapo Personalizados</p>
+            </div>
+            <div class="produto-card">
+                <img src="./img/img 3d/guardanapo 2.png" alt="Produto 2">
+                <p>centro de mesa Personalizados</p>
+            </div>
+            <div class="produto-card">
+                <img src="./img/img 3d/frajola s.png" alt="Produto 2">
+                <p>Porta Guardanapo Personalizados</p>
+            </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section id="contato" class="contato container">
+        <h2 style="color: white;">Fale com a Gente</h2>
+        <ul>
+            <li>
+                <a href="https://wa.me/5511949962568" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/codigo5_/" target="_blank"><i class="fab fa-instagram"></i>
+                    Instagram</a>
+            </li>
+            <li>
+                <a href="mailto:codigocinco55@gmail.com"><i class="fas fa-envelope"></i> E-mail</a>
+            </li>
+        </ul>
+    </section>
+
+    <!-- JavaScript -->
+    <script src="./scripts.js"></script>
+</body>
+
+
+
+</html>
